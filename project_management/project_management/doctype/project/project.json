@@ -1,0 +1,117 @@
+{
+ "autoname": "format:{MM}{YY}-{###}",
+ "creation": "2021-03-22 13:38:04.896434",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "project_id",
+  "title_of_the_project",
+  "project_description",
+  "start_date",
+  "approximate_end_date",
+  "total_resources_working",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "title_of_the_project",
+   "fieldtype": "Data",
+   "label": "Title of the Project"
+  },
+  {
+   "fieldname": "project_description",
+   "fieldtype": "Text Editor",
+   "label": "Project Description"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "approximate_end_date",
+   "fieldtype": "Date",
+   "label": "Approximate End Date"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Project",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "project_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Project ID",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_resources_working",
+   "fieldtype": "Data",
+   "label": "Total Resources working",
+   "read_only": 1
+  }
+ ],
+ "is_submittable": 1,
+ "modified": "2021-04-05 11:19:41.563442",
+ "modified_by": "Administrator",
+ "module": "Project Management",
+ "name": "Project",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Developer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Quality Assurance",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "title_field": "title_of_the_project",
+ "track_changes": 1
+}
